@@ -1,0 +1,76 @@
+/* Основные */
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color:white;
+}
+
+/* Сообщения */
+.Conteiner{
+    margin-bottom: 90px;
+}
+.MessageBlock {
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #1E1E1E;
+    color: white;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    width: 600px;
+}
+
+.UserId {
+    padding-left: 10px;
+    color: rgb(40, 219, 100);
+    font-size: 30px;
+    text-align: left;
+}
+
+.Text {
+    margin: 0;
+    padding: 10px;
+    width: 600px;
+    text-align: left;
+    font-size: 20px;
+    word-wrap: break-word;
+}
+
+.Date {
+    text-align: right;
+    font-size: 10px;
+    color: rgb(100, 100, 100);
+}
+
+/* Отправка сообщений */
+.SendMessage{
+background-color: #1E1E1E;
+padding:10px;
+position: fixed;
+height: 40px;
+bottom:0px;
+width:100%;
+border-top: 1px solid #504f4f;;
+}
+#MessageContainer {
+position: fixed;
+height: 30px;
+left:28%;
+bottom:10px;
+width:35%;
+}
+#SendMessageButton{
+position: fixed;
+left:64%;
+bottom:10px;
+height: 35px;
+color: Black;
+  font-size: 15px;
+  font-weight: 600;
+border-color: rgb(64, 197, 104);
+background: -moz-linear-gradient(#D0ECF4, #5BC9E1, #D0ECF4);
+background: -webkit-gradient(linear, 0 0, 0 100%, from(rgb(139, 247, 129)), to(rgb(56, 204, 50)), color-stop(0.5, rgb(40, 219, 100)));
+}

@@ -1,0 +1,298 @@
+{
+    "users": [
+        {
+            "id": "1",
+            "firstName": "Artem",
+            "lastName": "Adryanov",
+            "email": "Adryanov@mail.ru",
+            "login": "Adryanov@mail.ru",
+            "role": "admin"
+        },
+        {
+            "id": "2",
+            "firstName": "Boris",
+            "lastName": "Britva",
+            "email": "Britva@mail.ru",
+            "login": "Britva@mail.ru",
+            "role": "user"
+        },
+        {
+            "id": "3",
+            "firstName": "Victor",
+            "lastName": "Vasiliev",
+            "email": "Vasiliev@mail.ru",
+            "login": "Vasiliev@mail.ru",
+            "role": "user"
+        }
+    ],
+    "topics": [
+        {
+            "id": "1",
+            "title": "Го Дота",
+            "description": "Посоны, душа катку требует. Я - кор-роль не забудьте дать танго и фласку.",
+            "date": "3",
+            "messagesCount": 0,
+            "userId": "3",
+            "weight": 4,
+            "lastMessage": null
+        },
+        {
+            "id": "2",
+            "title": "Идем играть в шахматы.",
+            "description": "Шахматный клуб(попойка) открывется сегодня в 6!",
+            "date": "2",
+            "messagesCount": 3,
+            "userId": "2",
+            "weight": 66,
+            "lastMessage": {
+                "id": "4",
+                "topicId": "2",
+                "userId": "3",
+                "date": "666",
+                "text": "Отличная идеяsassassssssssssssssasasasasasasasasasassasasasasasasasa =)",
+                "likesCount": 3,
+                "isLikedByMe": false
+            }
+        },
+        {
+            "id": "3",
+            "title": "Праздник в честь дня морфлота!.",
+            "description": "Сегодня вечером устраиваем Голладнский штурвал в 7!",
+            "date": "25",
+            "messagesCount": 1,
+            "userId": "1",
+            "weight": 666,
+            "lastMessage": {
+                "id": "1",
+                "topicId": "3",
+                "userId": "2",
+                "date": "666",
+                "text": "Я иду!",
+                "likesCount": 1,
+                "isLikedByMe": false
+            }
+        },
+        {
+            "id": "4",
+            "title": "Го Дота",
+            "description": "Посоны, душа катку требует. Я - кор-роль не забудьте дать танго и фласку.",
+            "date": "3",
+            "messagesCount": 0,
+            "userId": "3",
+            "weight": 4,
+            "lastMessage": null
+        },
+        {
+            "id": "5",
+            "title": "Идем играть в шахматы.",
+            "description": "Шахматный клуб(попойка) открывется сегодня в 6!",
+            "date": "2",
+            "messagesCount": 3,
+            "userId": "2",
+            "weight": 66,
+            "lastMessage": {
+                "id": "4",
+                "topicId": "2",
+                "userId": "3",
+                "date": "666",
+                "text": "Отличная идея =)",
+                "likesCount": 3,
+                "isLikedByMe": false
+            }
+        },
+        {
+            "id": "6",
+            "title": "Праздник в честь дня морфлота!.",
+            "description": "Сегодня вечером устраиваем Голладнский штурвал в 7!",
+            "date": "25",
+            "messagesCount": 1,
+            "userId": "1",
+            "weight": 666,
+            "lastMessage": {
+                "id": "1",
+                "topicId": "3",
+                "userId": "2",
+                "date": "666",
+                "text": "Я иду!",
+                "likesCount": 1,
+                "isLikedByMe": false
+            }
+        },
+        {
+            "id": "7",
+            "title": "Го Дота",
+            "description": "Посоны, душа катку требует. Я - кор-роль не забудьте дать танго и фласку.",
+            "date": "3",
+            "messagesCount": 0,
+            "userId": "3",
+            "weight": 4,
+            "lastMessage": null
+        },
+        {
+            "id": "8",
+            "title": "Идем играть в шахматы.",
+            "description": "Шахматный клуб(попойка) открывется сегодня в 6!",
+            "date": "2",
+            "messagesCount": 3,
+            "userId": "2",
+            "weight": 66,
+            "lastMessage": {
+                "id": "4",
+                "topicId": "2",
+                "userId": "3",
+                "date": "666",
+                "text": "Отличная идея =)",
+                "likesCount": 3,
+                "isLikedByMe": false
+            }
+        },
+        {
+            "id": "9",
+            "title": "Праздник в честь дня морфлота!.",
+            "description": "Сегодня вечером устраиваем Голладнский штурвал в 7!",
+            "date": "25",
+            "messagesCount": 1,
+            "userId": "1",
+            "weight": 666,
+            "lastMessage": {
+                "id": "1",
+                "topicId": "3",
+                "userId": "2",
+                "date": "666",
+                "text": "Я иду!",
+                "likesCount": 1,
+                "isLikedByMe": false
+            }
+        },
+        {
+            "id": "10",
+            "title": "Го Дота",
+            "description": "Посоны, душа катку требует. Я - кор-роль не забудьте дать танго и фласку.",
+            "date": "3",
+            "messagesCount": 0,
+            "userId": "3",
+            "weight": 4,
+            "lastMessage": null
+        },
+        {
+            "id": "11",
+            "title": "Идем играть в шахматы.",
+            "description": "Шахматный клуб(попойка) открывется сегодня в 6!",
+            "date": "2",
+            "messagesCount": 3,
+            "userId": "2",
+            "weight": 66,
+            "lastMessage": {
+                "id": "4",
+                "topicId": "2",
+                "userId": "3",
+                "date": "666",
+                "text": "Отличная идея =)",
+                "likesCount": 3,
+                "isLikedByMe": false
+            }
+        },
+        {
+            "id": "12",
+            "title": "Праздник в честь дня морфлота!.",
+            "description": "Сегодня вечером устраиваем Голладнский штурвал в 7!",
+            "date": "25",
+            "messagesCount": 1,
+            "userId": "1",
+            "weight": 666,
+            "lastMessage": {
+                "id": "1",
+                "topicId": "3",
+                "userId": "2",
+                "date": "666",
+                "text": "Я иду!",
+                "likesCount": 1,
+                "isLikedByMe": false
+            }
+        },
+        {
+            "id": "13",
+            "title": "Го Дота",
+            "description": "Посоны, душа катку требует. Я - кор-роль не забудьте дать танго и фласку.",
+            "date": "3",
+            "messagesCount": 0,
+            "userId": "3",
+            "weight": 4,
+            "lastMessage": null
+        },
+        {
+            "id": "14",
+            "title": "Идем играть в шахматы.",
+            "description": "Шахматный клуб(попойка) открывется сегодня в 6!",
+            "date": "2",
+            "messagesCount": 3,
+            "userId": "2",
+            "weight": 66,
+            "lastMessage": {
+                "id": "4",
+                "topicId": "2",
+                "userId": "3",
+                "date": "666",
+                "text": "Отличная идея =)",
+                "likesCount": 3,
+                "isLikedByMe": false
+            }
+        },
+        {
+            "id": "15",
+            "title": "Праздник в честь дня морфлота!.",
+            "description": "Сегодня вечером устраиваем Голладнский штурвал в 7!",
+            "date": "25",
+            "messagesCount": 1,
+            "userId": "1",
+            "weight": 666,
+            "lastMessage": {
+                "id": "1",
+                "topicId": "3",
+                "userId": "2",
+                "date": "666",
+                "text": "Я иду!",
+                "likesCount": 1,
+                "isLikedByMe": false
+            }
+        }
+    ],
+    "messages": [
+        {
+            "id": "1",
+            "topicId": "3",
+            "userId": "2",
+            "date": "666",
+            "text": "Я иду!",
+            "likesCount": 1,
+            "isLikedByMe": false
+        },
+        {
+            "id": "2",
+            "topicId": "2",
+            "userId": "1",
+            "date": "6",
+            "text": "Супер!",
+            "likesCount": 1,
+            "isLikedByMe": false
+        },
+        {
+            "id": "3",
+            "topicId": "2",
+            "userId": "2",
+            "date": "66",
+            "text": "С меня пешки!",
+            "likesCount": 2,
+            "isLikedByMe": false
+        },
+        {
+            "id": "4",
+            "topicId": "2",
+            "userId": "3",
+            "date": "666",
+            "text": "Отличная идея =)",
+            "likesCount": 3,
+            "isLikedByMe": false
+        }
+    ]
+}
